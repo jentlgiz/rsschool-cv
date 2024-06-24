@@ -1,9 +1,9 @@
-**Наргиз Сабитова**
+* **Nargiz Sabitova**
 — — —
-nargiz.sabitova97@gmail.com
-Краткая информация о себе: *26 лет, из Башкортостана. Закончила педагогический на учителя английского, но не захотела работать по профессии. Заочно (во время пандемии) закончила магистратуру по направлению Бизнес-коммуникации, в это же время заинтересовалась программированием. Не сразу решилась учиться из-за различных страхов - в осноновном, из-за математики - но со временем, пробуя различные тренажеры, поняла, что это мне нравится. Кроме того, обнаружила, что я раньше вообще-то занималась HTML-разметкой, как минимум: в 14-15 лет "пилила" менюшки в группах Вконтакте, могла заниматься этим часами. Но тогда я даже не задумывалась о том, что это можно сделать профессией. Пробую сейчас, надеюсь, что получится!*
-Git, GitHub, JS, HTML, CSS, Prettier, ESLint
-Примеры кода 
+* nargiz.sabitova97@gmail.com
+* About me: *26 y.o., from Bashkortostan, Russia. Graduated from Akmulla Bashkir State Pedagogical University, acquired a qualification as an English language teacher. During COVID-19 got Master's degree in Bussines-communication, and at the same time got interested in programming. I didn't start studying till much later, because I was afraid I was not really shaped for this industry. But after trying all kinds of tutorials, I found out I honestly like it! In addition, I realised I used to 'play' with HTML, when I was 14-15 y.o. I did section 'Menu' in communities of VKontakte - could do it for hours - but I never considered this hobby as a future career! Now, I intend to become THE software-engineer, who knows his work very well!*
+* Git, GitHub, JS, HTML, CSS, Prettier, ESLint
+* Примеры кода 
 ` ` `
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@ Git, GitHub, JS, HTML, CSS, Prettier, ESLint
 <body>
 <h1>My First Heading</h1>
 </body>
-</html>
+</html> 
 ` ` `
-Опыт работы
-Английский язык: С1 (Имеется образование переводчика-референта)
+* Опыт работы: Web-разработчик (с. Аскарово)
+* Английский язык: С1 (Имеется образование переводчика-референта)
