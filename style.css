@@ -1,3 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1440px;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #2d2518;;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}  
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 header {
-    background-color: blanchedalmond;
+    background-color: white;
+    padding-top: 5px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    font-size: 16px;
+    background-color: #c4bcac;
+}
+
+.nav_item_link, .contacts_item_link {
+    color: #2d2518;
+    text-decoration: none;
+}
+
+.nav_item {
+    margin-right: 30px;
+}
+
+.nav_item:first-child {
+    margin-left: 450px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about_me {
+    width: 600px;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.about_me_title {
+    margin-left: 50px;
+}
+
+.profile_pic {
+    height: auto;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s; 
+}
+
+.profile_info {
+    /* background-color: red; */
+}
+
+.contacts {
+    background-color: antiquewhite;
 }
