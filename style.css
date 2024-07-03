@@ -15,8 +15,7 @@ body {
     justify-content: space-between; 
     min-width: 320px;
     min-height: 100vh;
-    margin: 0;
-    padding: 0; 
+    margin: 0 auto;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -73,16 +72,14 @@ a:visited {
 .profile_bio {
     display: flex;
     justify-content: space-between;
-    height: 380px;
+    height: 360px;
 }
 
 .profile_aboutme {
-    /* background: pink; */
     margin-left: 40px;
 }
 
 .profile_title {
-    /* background-color: aquamarine; */
     margin-left: auto; 
     margin-right: auto;
     text-align: center; 
@@ -93,10 +90,6 @@ a:visited {
     margin-left: auto; 
     margin-right: auto;
     text-align: end; 
-}
-
-.profile {
-    /* background-color: bisque; */
 } 
 
 .profile_pic {
@@ -112,38 +105,43 @@ a:visited {
     margin-top: 10px;
 }
 
-.profile_title {
-    /* font-weight: 400; */
-    /* background-color: #cdbaa2; */
-}
-
 .info_title {
     text-align: center;
-    background-color: #cdbaa2;
+    background-color: #c6bcaa;
 }
 
-.contacts {
-    /* background-color: rgb(167, 145, 145); */
+.info_subtitle {
+    text-align: center;
+    font-weight: 300;
+    color: #2d2518;
 }
+
+/* .contact_list {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+} */
 
 /* main info block */
 
 main {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .info {
-    flex-basis:32%;
-    margin-right: 5px;
-    margin-left: 10px;
+    flex-basis:45%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /* footer */
 
 footer {
-    background-color: blue;
+    background-color: #cdbaa2;
+    display: flex;
+    justify-content: space-around;
 }
