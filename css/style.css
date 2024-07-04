@@ -2,10 +2,9 @@
 
 * {
     box-sizing: border-box;
-}
+} 
 
 html {
-    height: 100%;
     scroll-behavior: smooth;
 }
 
@@ -13,9 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    min-width: 320px;
-    min-height: 100vh;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0; 
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -58,10 +56,9 @@ a:visited {
 /* blocks */
 
 .container {
-    max-width: 1440px;
+    width: 1300px; 
     min-height: 50px;
     margin: 0 auto;
-    padding: 0;
 } 
 
 /* header nav */
@@ -76,16 +73,16 @@ a:visited {
 
 .nav_item {
     margin-left: 50px;
-}
+} 
 
-.nav_item:last-child {
+.nav_item:last-child, .contacts {
     margin-right: 70px;
-}
+} 
 
 /* header profile */
 
 .container_profile {
-    flex-basis: 40%; 
+    flex-basis: 40%;
     padding: 0;
     margin: 0;
 }
@@ -94,14 +91,10 @@ a:visited {
     display: flex;
     justify-content: space-between;
     height: 300px;
-}
+} 
 
 .profile_aboutme {
     margin-left: 40px;
-}
-
-.contacts {
-    margin-right: 70px;
 }
 
 .profile_title {
@@ -157,9 +150,9 @@ a:visited {
 /* main info block */
 
 .info_title {
-    text-align: center;
-    background-color: #c3b299;
-    border-radius: 18%;
+    text-align: start;
+    background-color: #c7b197;
+    padding-left: 10px;
 }
 
 .main_info {
@@ -173,7 +166,8 @@ a:visited {
 }
 
 .work_exp {
-    flex-basis: 100%;
+    flex-basis: 80%;
+    padding-bottom: 20px;
 }
 
 .info code {
@@ -188,7 +182,30 @@ a:visited {
 /* footer */
 
 footer {
+    width:1300px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #cdbaa2;
+}
+
+.footer_section {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
+
+.rsschool {
+    background-image: url(../assets/rsschool-logo.svg);
+    width: 121px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.profile_logo {
+    margin-left: 15px;
+} 
