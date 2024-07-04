@@ -23,10 +23,29 @@ body {
     line-height: 1.6;
 }
 
-ul {
+.nav_list, .contacts_list {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.info_list {
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_list_item {
+    display: flex;
+}
+
+.info_list_para {
+    margin-right: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 a,
@@ -41,6 +60,7 @@ a:visited {
     max-width: 1440px;
     min-height: 50px;
     margin: 0 auto;
+    padding: 0;
 } 
 
 /* header nav */
@@ -110,11 +130,6 @@ a:visited {
     margin-top: 10px;
 }
 
-.info_title {
-    text-align: center;
-    background-color: #cdbaa2;
-}
-
 .contacts_list {
     align-items: center;
     gap: 4px;
@@ -140,18 +155,28 @@ a:visited {
 
 /* main info block */
 
-main {
+.info_title {
+    text-align: center;
+    background-color: #c3b299;
+}
+
+.main_info {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    align-content: center;
+    flex-basis: 30%;
     flex-wrap: wrap;
+    padding: 0;
+}
+
+.work_exp {
+    flex-basis: 100%;
 }
 
 .info {
-    flex-basis:45%;
-    margin-right: 15px;
-    margin-left: 15px;
+    width: 410px;
+    margin-left: 10px;
 }
 
 /* footer */
