@@ -217,12 +217,14 @@ footer {
 .profile_logo {
     margin-left: 15px;
     text-align: center;
-    background-color: orange;
+    display: flex;
 } 
 
-
-
 .footer_github {
-    margin-left: 5px;;
-    background-color: aquamarine;
+    margin-top: 3px;
+    margin-left: 5px;
+} 
+
+.footer_author {
+    margin-left: 5px;
 }
