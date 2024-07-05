@@ -103,6 +103,10 @@ a:visited {
     text-align: center; 
 }
 
+.profile_info_title {
+   text-decoration: underline;
+}
+
 .info_text {
     font-size: 12px; 
     margin-left: auto; 
@@ -166,12 +170,16 @@ a:visited {
 }
 
 .work_exp {
-    flex-basis: 80%;
+    flex-basis: 95%;
     padding-bottom: 20px;
 }
 
 .info code {
     font-size: 12px;
+}
+
+.code_sample_author {
+    text-align: center;
 }
 
 .info {
@@ -208,4 +216,13 @@ footer {
 
 .profile_logo {
     margin-left: 15px;
+    text-align: center;
+    background-color: orange;
 } 
+
+
+
+.footer_github {
+    margin-left: 5px;;
+    background-color: aquamarine;
+}
