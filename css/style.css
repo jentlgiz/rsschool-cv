@@ -153,6 +153,7 @@ a:visited {
 
 .thanksvg {
     font-size: 10px;
+    color: #dbcdbd;
 }
 
 /* main info block */
@@ -171,6 +172,7 @@ a:visited {
     flex-basis: 30%;
     flex-wrap: wrap;
     padding: 0;
+    margin: 0;
 }
 
 .work_exp {
@@ -178,17 +180,15 @@ a:visited {
     padding-bottom: 20px;
 }
 
-.info code {
-    font-size: 12px;
-}
-
-.code_sample_author {
-    text-align: center;
+.code_sample {
+    padding-top: 0;
+    margin: 0;
+    font-size: 11px;
 }
 
 .info {
     width: 410px;
-    margin-left: 10px;
+    margin-left: 10px; 
 }
 
 /* footer */
