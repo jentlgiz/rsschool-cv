@@ -1,6 +1,5 @@
-/* common */
 
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -53,15 +52,11 @@ a:visited {
   text-decoration: none;
 }
 
-/* blocks */
-
 .container {
     width: 1300px;
     min-height: 50px;
     margin: 0 auto;
 }
-
-/* header nav */
 
 .nav_list {
     background-color: #cdbaa2;
@@ -78,8 +73,6 @@ a:visited {
 .nav_item:last-child, .contacts {
     margin-right: 70px;
 }
-
-/* header profile */
 
 .container_profile {
     flex-basis: 40%;
@@ -175,8 +168,6 @@ a:visited {
     color: #dbcdbd;
 }
 
-/* main info block */
-
 .info_title {
     text-align: start;
     background-color: #c7b197;
@@ -209,8 +200,6 @@ a:visited {
     width: 410px;
     margin-left: 10px;
 }
-
-/* footer */
 
 footer {
     width:1300px;
@@ -250,4 +239,4 @@ footer {
 
 .footer_author {
     margin-left: 5px;
-}
+} */
