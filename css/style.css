@@ -35,7 +35,7 @@ body {
 
 .section {
     display: grid;
-    grid-template-columns: 28% 72%;
+    grid-template-columns: 36% 64%;
     grid-template-rows: 1fr;
     grid-row-gap: 2px;
     justify-items: center;
@@ -59,12 +59,14 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
-li a {
-    margin-right: 45px;
+article ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 main {
@@ -73,6 +75,10 @@ main {
 
 article {
     background-color: greenyellow;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
@@ -84,7 +90,20 @@ footer {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    margin-left: 200px;
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    background-color: aqua;
+}
+
+.icon-pic {
+    width: 20px;
+}
+
+.svg {
+    background-color: green;
 }
 
 /* *
