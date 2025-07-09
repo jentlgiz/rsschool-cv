@@ -15,7 +15,6 @@ p {
 }
 
 body {
-    background-color: azure;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -26,7 +25,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    max-width: 1440px;
     min-height: 50px;
     margin: 0 auto;
 }
@@ -38,6 +37,9 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-items: center;
+    border-color:#cdbaa2;
+    border-left-style:double;
+    border-right-style: double;
 }
 
 .wrapper {
@@ -46,19 +48,18 @@ body {
     align-items: center;
 }
 
-header {
-    background-color: aquamarine;
-}
-
 nav {
-    background-color: rgb(113, 20, 20);
+    background-color: #cdbaa2;
 }
 
 nav ul {
-    background-color: orange;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
     list-style-type: none;
+}
+
+li a {
+    margin-right: 45px;
 }
 
 main {
@@ -73,12 +74,6 @@ footer {
     background-color: rgb(183, 157, 207);
 }
 
-/* .profile_pic {
-    background-size: cover;
-    text-align: center;
-    height: 210px;
-} */
-
 .img {
     width: 320px;
     height: 320px;
@@ -88,19 +83,6 @@ footer {
 }
 
 /* *
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
 .nav_list, .contacts_list {
     margin: 0;
     padding: 0;
