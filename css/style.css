@@ -106,29 +106,20 @@ h2 {
     padding-bottom: 3px;
 }
 
-.icon-pic {
+.icon-pic, .icon-footer {
     width: 20px;
     margin-right: 10px;
 }
 
-.icon-pic-footer {
-    width: 25px;
-    margin-right: 10px;
-    padding-top: 10px;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px 5px 20px;
 }
 
-.svg {
-    margin-top: 10px;
+.icon-footer {
+  margin: 0px 0px -4px 7px;
 }
-
-/* .rsschool {
-    background-image: url(../assets/rsschool-logo.svg);
-    width: 121px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-} */
 
 .button {
   align-items: center;
