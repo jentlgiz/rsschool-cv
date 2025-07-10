@@ -52,7 +52,7 @@ body {
 }
 
 .content {
-    max-width: 850px;
+    max-width: 400px;
     border-color: #818177;
     border-style: solid;
     border-bottom-right-radius: 25%;
@@ -74,8 +74,13 @@ nav ul {
     padding-top: 15px;
 }
 
-article ul {
-    list-style-type: none;
+div ul, div p {
+    list-style-type: circle;
+    padding: 2px 0px 10px 30px;
+}
+
+ul li {
+  color: #493e28;
 }
 
 footer {
@@ -106,19 +111,15 @@ h2 {
     padding-bottom: 3px;
 }
 
-.icon-pic, .icon-footer {
+.icon-pic {
     width: 20px;
-    margin-right: 10px;
+    margin: 0px 10px -4px 7px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 5px 25px 5px 20px;
-}
-
-.icon-footer {
-  margin: 0px 0px -4px 7px;
 }
 
 .button {
