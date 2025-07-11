@@ -35,33 +35,30 @@ body {
 
 .section {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 28% 72%;
     grid-template-rows: 1fr;
 }
 
-.wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 400px;
-    margin-top: 25px;
-    background-color: greenyellow;
+.text {
+  border-color: #818177;
+  border-style: solid;
+  border-bottom-right-radius: 25%;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 10%;
+  max-width: 510px;
+  margin: 15px;
 }
 
 .text p:first-child {
-    max-width: 380px;
-    border-color: #818177;
-    border-style: solid;
-    border-bottom-right-radius: 25%;
-    border-top-right-radius: 15%;
-    border-top-left-radius: 15%;
-    padding: 20x;
-    font-size: 14px;
-    background-color: goldenrod;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.soft-skills {
+  margin-left: 15px;
 }
 
 .content {
-  background-color: fuchsia;
   display: flex;
   flex-direction: row;
 }
@@ -70,26 +67,27 @@ body {
   background-color: sandybrown;
 }
 
-.text {
-  background-color: orangered;
-}
-
 nav {
     background-color: #cdbaa2;
     border-top-right-radius: 20%;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 15px;
 }
 
-div ul, div p {
-    list-style-type: circle;
-    padding: 2px 0px 10px 30px;
+div ul {
+  list-style-type: circle;
+  padding: 2px 0px 0px 30px;
+}
+
+ .hard-skills, .languages {
+  border-color: #818177;
+  border-right-style: double;
 }
 
 ul li {
@@ -100,17 +98,38 @@ footer {
     background-color: #bca88f;
 }
 
+table {
+  margin-top: -22px;
+  border-color: #818177;
+  border-right-style: double;
+  border-top-style: solid;
+}
+
+caption {
+  height: 80.5px;
+  font-size: 24px;
+}
+
+.title-more {
+  opacity: 0;
+}
+
+.edu-title {
+  margin-right: 210px;
+}
+
 .img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 15px 0px 0px 100px;
+    margin: 0px 0px 0px 45px;
 }
 
 h2 {
-    background-color: #c5b095;
     padding-left: 40px;
+    border-bottom-style: solid;
+    border-color: #818177;
 }
 
 .logo {
