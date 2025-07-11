@@ -16,8 +16,6 @@ p {
 
 body {
     max-width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
@@ -37,10 +35,8 @@ body {
 
 .section {
     display: grid;
-    grid-template-columns: 32% 68%;
+    grid-template-columns: 30% 70%;
     grid-template-rows: 1fr;
-    grid-row-gap: 0px;
-    grid-column-gap: 10px;
 }
 
 .wrapper {
@@ -49,16 +45,33 @@ body {
     justify-content: space-evenly;
     max-width: 400px;
     margin-top: 25px;
+    background-color: greenyellow;
 }
 
-.content {
-    max-width: 400px;
+.text p:first-child {
+    max-width: 380px;
     border-color: #818177;
     border-style: solid;
     border-bottom-right-radius: 25%;
     border-top-right-radius: 15%;
     border-top-left-radius: 15%;
-    padding: 20px;
+    padding: 20x;
+    font-size: 14px;
+    background-color: goldenrod;
+}
+
+.content {
+  background-color: fuchsia;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  background-color: sandybrown;
+}
+
+.text {
+  background-color: orangered;
 }
 
 nav {
@@ -85,11 +98,6 @@ ul li {
 
 footer {
     background-color: #bca88f;
-}
-
-.footer-section {
-    display: flex;
-    justify-content: space-between;
 }
 
 .img {
