@@ -85,6 +85,12 @@ div ul {
   padding: 2px 0px 0px 30px;
 }
 
+.li-special {
+  list-style-type: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
  .hard-skills, .languages {
   border-color: #818177;
   border-right-style: double;
