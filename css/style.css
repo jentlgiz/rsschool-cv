@@ -110,6 +110,25 @@ div ul {
   border-right-style: double;
 }
 
+.projects {
+  display: flex;
+  margin-left: 30px;
+}
+
+.project-box {
+  width: 280px;
+  border: 5px double #493e28;
+  margin-right: 10px;
+  border-radius: 20%;
+  overflow: hidden;
+}
+
+.project-box img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
 ul li {
   color: #493e28;
 }
