@@ -117,7 +117,7 @@ div ul {
 
 .project-box {
   width: 280px;
-  border: 5px double #493e28;
+  border: 2px double #493e28;
   margin-right: 10px;
   border-radius: 20%;
   overflow: hidden;
@@ -155,6 +155,11 @@ caption {
 
 .edu-title {
   margin-right: 210px;
+}
+
+.date {
+  margin-top: 8px;
+  font-weight: 600;
 }
 
 .img {
