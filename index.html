@@ -13,33 +13,23 @@
 </head>
 <body>
     <header class="container">
-        <nav class="container">
+        <nav>
             <ul>
                 <li><a href="#hard_skills">hard skills</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#languages">languages</a></li>
                 <li><a href="#code">code examples</a></li>
                 <li><a href="#education">education</a></li>
-                <li><a href="#soft_skills">soft skills</a></li>
                 <li><a href="#background">background</a></li>
             </ul>
         </nav>
         <section class="section">
-            <div><img class="img" src="./images/profile_pic.jpg" alt="profile picture"></div>
+        <div class="profile-section" id="contacts">
             <div>
-                <div class="wrapper">
-                <h1>Nargiz S. junior frontend dev.</h1>
-                <button class="button" type="button" role="button">download cv</button>
-                </div>
-                <p class="content">When I was 14-15 years old, I used to "play" with HTML. Just for pure fan. I would make section Menu in kpop fan communities of VKontakte, and I could do it for hours. But at this time I never consudered this hobby as a future career. And no one around me, including my parents, too, even though they knew I loved it. But during COVID-19, after getting Master's degree in Bussines-communication, I fell in love with programming once again. I tried all kinds of free tutorials and realised I still can do it. Now, I intend to become <b>THE</b> software-engineer, who knows theirs work very well!</p>
+                <img class="img" src="./images/profile_pic.jpg" alt="profile picture">
             </div>
-        </section>
-    </header>
-    <main class="container">
-        <section class="section">
-        <div id="contacts">
-            <h2>contacts</h2>
-            <ul>
+            <ul class="contacts">
+                <h3>&#128049; contacts</h3>
                 <li>
                     <div class="logo">
                         <div class="svg"><img alt="svg picture" class="icon-pic" src="./images/icons8-location-50.png"></div>
@@ -75,6 +65,42 @@
                 </p>
             </ul>
         </div>
+                <div class="profile-content">
+                    <div class="profile-title">
+                        <h1>Nargiz S. junior frontend dev.</h1>
+                    <button class="button" type="button" role="button">download cv</button>
+                    </div>
+                    <div class="profile-text">
+                    <p class="content">When I was 14-15 years old, I used to "play" with HTML. Just for pure fan. I would make section Menu in kpop fan communities of VKontakte, and I could do it for hours. But at this time I never consudered this hobby as a future career. And no one around me, including my parents, too, even though they knew I loved it. But during COVID-19, after getting Master's degree in Bussines-communication, I fell in love with programming once again. I tried all kinds of free tutorials and realised I still can do it. Now, I intend to become <b>THE</b> software-engineer, who knows theirs work very well!</p>
+                        <p>&#128526;Got both creative and analytical skills</p>
+                        <p>&#128572;Pretty diligent and patient</p>
+                        <p>&#128406;Open-minded, can work with people from diverse backgrounds</p>
+                        <p>&#128640;<b>"Naruto taught to never give up"</b></p>
+                    </div>
+                </div>
+        </section>
+    </header>
+    <main class="container">
+        <section class="section">
+            <div id="education">
+            <h2>education</h2>
+                <p>Akmulla Bashkir State Pedagogical University</p>
+                <p><i>English, Business-communication</i></p>
+                <p>HTML Academy, Webcademy</p>
+                <p><i>Full-stack, Frontend</i></p>
+        </div>
+         <div id="background">
+            <h2>background</h2>
+            <ul>
+                <li>june 2024 - 2025
+                    <p>freelance, an English tutor</p>
+                </li>
+                <li>september 2023 - june 2024
+                    <p>local school of additional education "Hazina", an English teacher</p>
+                </li>
+                <li>march 2021 - july 2023<p>local unitary enterprise "Askar", document specialist</p></li>
+            </ul>
+        </div>
         <div id="hard_skills">
             <h2>hard skills</h2>
             <ul>
@@ -85,20 +111,6 @@
                 <li>More: SASS, Bootstrap 5, BEM naming, svg, PixelPerfect, PHP (ajax), jQuery</li>
             </ul>
         </div>
-        <div id="background">
-            <h2>background</h2>
-            <ul>
-                <li>june 2024 - 2025
-                    <p>freelance</p>
-                    <p>an English tutor</p>
-                </li>
-                <li>september 2023 - june 2024
-                    <p>local school of additional education "Hazina"</p>
-                    <p>an English teacher</p>
-                </li>
-                <li>march 2021 - july 2023<p>local unitary enterprise "Askar"</p><p>document specialist</p></li>
-            </ul>
-        </div>
         <div id="projects">
             <h2>projects</h2>
             <ul>
@@ -106,17 +118,7 @@
                 <li><a href="https://jentlgiz.github.io/rsschool-cv/">CV</a></li>
             </ul>
         </div>
-        <div id="education">
-            <h2>education</h2>
-                <p>Akmulla Bashkir State Pedagogical University</p>
-                <p><i>English, Business-communication</i></p>
-                <p>HTML Academy, Webcademy</p>
-        </div>
-        <div id="code">
-            <h2>code examples</h2>
-            <pre><code>let weight = 5;<br>let recommendation;<br>if (weight&lt;4) {<br>recommendation = 'Пора перекусить'}<br>if (weight &gt;= 4 &amp;&amp; 5.5) { recommendation = 'Вес в норме'}<br>if (weight &gt; 5.5) {recommendation = 'Пора на тренировку'}<br>(sample from HTML Academy simulator)</code></pre>
-        </div>
-        <div id="languages">
+         <div id="languages">
             <h2>languages</h2>
              <ul>
                 <li>Native: Bashkir, Russian</li>
@@ -124,15 +126,10 @@
                 <li>Basic: Turkish, Deutsch</li>
             </ul>
         </div>
-        <div id="soft_skills">
-            <h2>soft skills</h2>
-        <div>
-            <p>&#128526;Got both creative and analytical skills</p>
-            <p>&#128572;Pretty diligent and patient</p>
-            <p>&#128406;Open-minded, can work with people from diverse backgrounds</p>
-            <p>&#128640;<b>"Naruto taught to never give up"</b></p>
+        <div id="code">
+            <h2>code examples</h2>
+            <pre><code>let weight = 5;<br>let recommendation;<br>if (weight&lt;4) {<br>recommendation = 'Пора перекусить'}<br>if (weight &gt;= 4 &amp;&amp; 5.5) { recommendation = 'Вес в норме'}<br>if (weight &gt; 5.5) {recommendation = 'Пора на тренировку'}<br>(sample from HTML Academy simulator)</code></pre>
         </div>
-    </div>
         </section>
     </main>
     <footer class="container">
